@@ -29,8 +29,9 @@ create your own queries with custom filters, only specific data, etc.
     - This will return a JSON Document with the Total World Confirmed Cases, World Deaths, and World Recovered Cases, 
     which should look like this *(data will differ of course)*:
     
-<details>
-  <summary>Click to expand!</summary>
+        - <details>
+            <summary>Click to expand!</summary>
   
-  ![image](https://lh3.googleusercontent.com/_srIW4IdOUIMfmK8JDvjmXhqQYVMjND-is6zSeaiKvX0CHBV3c43htKvWhBCLFCXfCA5NGuR2Caq8o4ukrYyYgWjKHtx0CvVpLA31x1hI4rgWwZ9uEIa3A0lEXwTWxJIEa9DqjFD87sGBgy1DBps0ak056zitDyT2p12-GKbAU0I6W51Z1yBd3OT9iJBuvq_JsAq1cZLtEXbfP0RFlwwmnrdHdYMv8uBr5qt7iBE1Nzv0HFF0DgTpRpqBrazj736Sm3BHfzyC8qQCE6T6ALYklL6yYxUxeV4j4sOVfO9TLcOdpUfstwOK496Vv0BQTqofdGCrZWTYTBnmU_PKdWTxgz_KwjghXvveQQ4SUSfLADG5UZTeMabtccVn-AWb6u22eiq12cW2cPcsp8y1cvqfPAc3k1DH0I3XQ-Lm8rb1C8LTMTxSebFAq28BAyqV2Gdp-c3ZaZu_GiqUYK0C3zRAuplwHh2gKZ4xGvYgdIoUgqCSXqokFNKhJjrUgN65igLRBzSi4LzmVGV_27syhzSFsgTSpkdo0KXdkBufcnbWautr-5YcSiv76YMFsH1kIY-QXD4HZO2OOpmR0lNOFFqo4DVBMcoWX-eB-SOyU12Gst5H3CzRFzehNw22nEdDuG-U9vsAQTGVwX__i2vtkmYqWlcvy24eCAn8VC7ra-Ih3OwDO5XtZlqWkxU0U0M5g=w296-h751-no
-</details>
+                ![image](https://lh3.googleusercontent.com/_srIW4IdOUIMfmK8JDvjmXhqQYVMjND-is6zSeaiKvX0CHBV3c43htKvWhBCLFCXfCA5NGuR2Caq8o4ukrYyYgWjKHtx0CvVpLA31x1hI4rgWwZ9uEIa3A0lEXwTWxJIEa9DqjFD87sGBgy1DBps0ak056zitDyT2p12-GKbAU0I6W51Z1yBd3OT9iJBuvq_JsAq1cZLtEXbfP0RFlwwmnrdHdYMv8uBr5qt7iBE1Nzv0HFF0DgTpRpqBrazj736Sm3BHfzyC8qQCE6T6ALYklL6yYxUxeV4j4sOVfO9TLcOdpUfstwOK496Vv0BQTqofdGCrZWTYTBnmU_PKdWTxgz_KwjghXvveQQ4SUSfLADG5UZTeMabtccVn-AWb6u22eiq12cW2cPcsp8y1cvqfPAc3k1DH0I3XQ-Lm8rb1C8LTMTxSebFAq28BAyqV2Gdp-c3ZaZu_GiqUYK0C3zRAuplwHh2gKZ4xGvYgdIoUgqCSXqokFNKhJjrUgN65igLRBzSi4LzmVGV_27syhzSFsgTSpkdo0KXdkBufcnbWautr-5YcSiv76YMFsH1kIY-QXD4HZO2OOpmR0lNOFFqo4DVBMcoWX-eB-SOyU12Gst5H3CzRFzehNw22nEdDuG-U9vsAQTGVwX__i2vtkmYqWlcvy24eCAn8VC7ra-Ih3OwDO5XtZlqWkxU0U0M5g=w296-h751-no)
+        
+          </details>
