@@ -1,5 +1,6 @@
 ---
 layout: default
+title: COVID-19
 ---
 
 # COVID-19 Data Query
