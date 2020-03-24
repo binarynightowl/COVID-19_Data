@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # COVID-19 Data Query
 ## Sources
 This project utilizes [John Hopkins University](https://coronavirus.jhu.edu/map.html)'s 
