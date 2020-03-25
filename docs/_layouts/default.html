@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>COVID-19 Data Queries</title>
     {% if site.google_analytics %}
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
@@ -19,6 +18,7 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
@@ -42,9 +42,9 @@
         {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
         {% endif %}
-        <span class="site-footer-credits">This page was designed with <i class="fas fa-heart"></i> by Taylor Dettling <a
-                href="https://twitter.com/binarynightowl" target="_blank">
-          (binarynightowl)</a>.
+        <span class="site-footer-credits">This page was designed with <i class="fa fa-heart"></i> by Taylor
+          Dettling (<a href="https://twitter.com/binarynightowl" target="_blank">
+          binarynightowl</a>).
         </span>
       </footer>
     </main>
