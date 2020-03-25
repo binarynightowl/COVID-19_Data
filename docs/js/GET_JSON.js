@@ -5,7 +5,7 @@ function get_json(ele, url) {
         });
 
         data.then(function (data, textStatus, jqxhr) {
-            document.getElementById('test23').innerHTML = jqxhr.responseText;
+            document.getElementById('world').innerHTML = jqxhr.responseText;
         })
     })
 }
