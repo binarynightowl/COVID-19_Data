@@ -1,5 +1,5 @@
 function get_json(ele, url) {
-    $(document).ready(function () {
+    window.onload = $(document).ready(function () {
         let data = $.getJSON(url, function (data) {
             return data
         });
