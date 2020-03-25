@@ -34,7 +34,7 @@ def get_state_data(state_to_find):
             state_data[state_to_find] = (state['Confirmed'] - state['Deaths'] - state['Recovered'])
 
 
-# get data for all states in a given list and return it as a list
+# get data for all states in a given list and append it to the dictionary
 def get_all_state_data():
     states = ["New York", "Washington", "New Jersey", "California", "Illinois", "Michigan", "Florida", "Louisiana",
               "Massachusetts", "Texas", "Georgia", "Colorado"]
