@@ -94,13 +94,9 @@ title: COVID-19
                         <p>
                             This will return a JSON Document with the worldwide total confirmed cases, deaths, and recoveries,which should look like this <em>(data will differ of course)</em>:
                         </p>
-                        <ul>
-                            <li>
-                                <details id="world">
-                                    <summary onclick="get_json(this, 'https://services1.arcgis.com/0MSEUqKaxRlEPj5g/ArcGIS/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer/1/query?where=1=1&amp;outStatistics=[{&quot;statisticType&quot;:&quot;sum&quot;,&quot;onStatisticField&quot;:&quot;Confirmed&quot;,&quot;outStatisticFieldName&quot;:&quot;confirmed&quot;},{&quot;statisticType&quot;:&quot;sum&quot;,&quot;onStatisticField&quot;:&quot;deaths&quot;,&quot;outStatisticFieldName&quot;:&quot;deaths&quot;},{&quot;statisticType&quot;:&quot;sum&quot;,&quot;onStatisticField&quot;:&quot;recovered&quot;,&quot;outStatisticFieldName&quot;:&quot;recovered&quot;}]&amp;f=pjson')">Click to reveal!</summary>
-                                </details>
-                            </li>
-                        </ul>
+                        <details id="world">
+                            <summary onclick="get_json(this, 'https://services1.arcgis.com/0MSEUqKaxRlEPj5g/ArcGIS/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer/1/query?where=1=1&amp;outStatistics=[{&quot;statisticType&quot;:&quot;sum&quot;,&quot;onStatisticField&quot;:&quot;Confirmed&quot;,&quot;outStatisticFieldName&quot;:&quot;confirmed&quot;},{&quot;statisticType&quot;:&quot;sum&quot;,&quot;onStatisticField&quot;:&quot;deaths&quot;,&quot;outStatisticFieldName&quot;:&quot;deaths&quot;},{&quot;statisticType&quot;:&quot;sum&quot;,&quot;onStatisticField&quot;:&quot;recovered&quot;,&quot;outStatisticFieldName&quot;:&quot;recovered&quot;}]&amp;f=pjson')">Click to reveal!</summary>
+                        </details>
                     </li>
                 </ul>
             </li>
