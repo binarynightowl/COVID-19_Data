@@ -23,7 +23,7 @@ layout: default
 <body>
     <div class="markdown-body editormd-preview-container" previewcontainer="true" style="padding: 20px;">
         <h1 id="h1-covid-19-data-query">
-            <a name="COVID-19 Data Query" class="reference-link"></a>
+            <a name="COVID-19 Data Querying" class="reference-link"></a>
             <span class="header-link octicon octicon-link"></span>
             COVID-19 Data Query
         </h1>
@@ -80,7 +80,7 @@ layout: default
             </li>
         </ul>
         <h2 id="h2-data-queries">
-            <a name="Data Queries" class="reference-link"></a>
+            <a name="How to Perform a Query" class="reference-link"></a>
             <span class="header-link octicon octicon-link"></span>
             Data Queries
         </h2>
@@ -108,13 +108,12 @@ layout: default
                         </p>
                         <ul>
                             <li>
-                                <details onclick="get_json(this,
+                                <details id="world" onclick="get_json(this.id,
                                     'https://services1.arcgis.com/0MSEUqKaxRlEPj5g/ArcGIS/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer/1/query?where=1=1&amp;outStatistics=[{&quot;statisticType&quot;:&quot;sum&quot;,&quot;onStatisticField&quot;:&quot;Confirmed&quot;,&quot;outStatisticFieldName&quot;:&quot;confirmed&quot;},{&quot;statisticType&quot;:&quot;sum&quot;,&quot;onStatisticField&quot;:&quot;deaths&quot;,&quot;outStatisticFieldName&quot;:&quot;deaths&quot;},{&quot;statisticType&quot;:&quot;sum&quot;,&quot;onStatisticField&quot;:&quot;recovered&quot;,&quot;outStatisticFieldName&quot;:&quot;recovered&quot;}]&amp;f=pjson')">
                                     <summary>Click to reveal!</summary>
 
                                     <pre>
-                                        <code id="world" contenteditable spellcheck="false">
-<!--                                            <div id="world"></div>-->
+                                        <code class ="json" contenteditable spellcheck="false">
                                         </code>
                                     </pre>
                                 </details>
@@ -137,9 +136,13 @@ layout: default
                         </p>
                         <ul>
                             <li>
-                                <details>
+                                <details id="US-Data" onclick="get_json(this.id,'https://services1.arcgis.com/0MSEUqKaxRlEPj5g/ArcGIS/rest/services/ncov_cases/FeatureServer/1/query?where=Country_Region=%27US%27&outFields=Province_State,confirmed,deaths,recovered,%20active&resultRecordCount=200&f=pjson')">
                                     <summary>Click to reveal!</summary>
 
+                                    <pre>
+                                        <code class ="json" contenteditable spellcheck="false">
+                                        </code>
+                                    </pre>
                                 </details>
                             </li>
                         </ul>
@@ -160,9 +163,13 @@ layout: default
                         </p>
                         <ul>
                             <li>
-                                <details>
+                                <details id="China/US Data" onclick="get_json(this.id,'https://services1.arcgis.com/0MSEUqKaxRlEPj5g/ArcGIS/rest/services/ncov_cases/FeatureServer/2/query?where=1=1&objectIds=18,4&outFields=%20Country_Region,%20confirmed,%20deaths,%20recovered,%20active&returnGeometry=false&f=pjson')">
                                     <summary>Click to reveal!</summary>
 
+                                    <pre>
+                                        <code class ="json" contenteditable spellcheck="false">
+                                        </code>
+                                    </pre>
                                 </details>
                             </li>
                         </ul>
