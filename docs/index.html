@@ -2,6 +2,7 @@
 layout: default
 title: COVID-19
 ---
+
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/GET_JSON.js" ></script>
@@ -96,10 +97,6 @@ title: COVID-19
                             <li>
                                 <details id="test10">
                                     <summary onclick="get_json(this, 'https://services1.arcgis.com/0MSEUqKaxRlEPj5g/ArcGIS/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer/1/query?where=1=1&outStatistics=[{%22statisticType%22:%22sum%22,%22onStatisticField%22:%22Confirmed%22,%22outStatisticFieldName%22:%22confirmed%22},{%22statisticType%22:%22sum%22,%22onStatisticField%22:%22deaths%22,%22outStatisticFieldName%22:%22deaths%22},{%22statisticType%22:%22sum%22,%22onStatisticField%22:%22recovered%22,%22outStatisticFieldName%22:%22recovered%22}]&f=pjson')">Click to reveal!</summary>
-                                        <div name="world" id="69">
-                                            <p id="test23">
-                                            </p>
-                                        </div>
                                 </details>
                             </li>
                         </ul>
