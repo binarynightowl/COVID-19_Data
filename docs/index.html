@@ -25,64 +25,64 @@ layout: default
         <h1 id="h1-covid-19-data-query">
             <a name="COVID-19 Data Querying" class="reference-link"></a>
             <span class="header-link octicon octicon-link"></span>
-            COVID-19 Data Query
+            COVID-19 Data Querying
         </h1>
         <h2 id="h2-sources">
             <a name="Sources" class="reference-link"></a>
             <span class="header-link octicon octicon-link"></span>
             Sources</h2>
         <p>This project utilizes
-            <a href="https://coronavirus.jhu.edu/map.html">John Hopkins University</a>'s
-            <a href="https://services1.arcgis.com/0MSEUqKaxRlEPj5g/ArcGIS/rest/services/ncov_cases/FeatureServer">ArcGIS data layer</a>
+            <a href="https://coronavirus.jhu.edu/map.html" target="_blank">John Hopkins University</a>'s
+            <a href="https://services1.arcgis.com/0MSEUqKaxRlEPj5g/ArcGIS/rest/services/ncov_cases/FeatureServer" target="_blank">ArcGIS data layer</a>
             to get its data. The data layer pulls data from the following sources:</p>
         <ul>
             <li>
-                <a href="https://www.who.int/">World Health Organization (WHO)</a>
+                <a href="https://www.who.int/" target="_blank">World Health Organization (WHO)</a>
             </li>
             <li>
-                <a href="http://3g.dxy.cn/newh5/view/pneumonia">DXY.cn. Pneumonia. 2020.</a>
+                <a href="http://3g.dxy.cn/newh5/view/pneumonia" target="_blank">DXY.cn. Pneumonia. 2020.</a>
             </li>
             <li>
                 <a href="https://bnonews.com/index.php/2020/02/the-la
-                         -coronavirus-cases/">BNO News</a>
+                         -coronavirus-cases/" target="_blank">BNO News</a>
             </li>
             <li>
-                <a href="http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml">National Health Commission of the People's Republic of China (NHC)</a>
+                <a href="http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml" target="_blank">National Health Commission of the People's Republic of China (NHC)</a>
             </li>
             <li>
-                <a href="http://weekly.chinacdc.cn/news/TrackingtheEpidemic.htm">China CDC (CCDC)</a></li>
+                <a href="http://weekly.chinacdc.cn/news/TrackingtheEpidemic.htm" target="_blank">China CDC (CCDC)</a></li>
             <li>
-                <a href="https://www.chp.gov.hk/en/features/102465.html">Hong Kong Department of Health</a>
+                <a href="https://www.chp.gov.hk/en/features/102465.html" target="_blank">Hong Kong Department of Health</a>
             </li>
             <li>
-                <a href="https://www.ssm.gov.mo/portal/">Macau Government</a>
+                <a href="https://www.ssm.gov.mo/portal/" target="_blank">Macau Government</a>
             </li>
             <li>
-                <a href="https://sites.google.com/cdc.gov.tw/2019ncov/taiwan?authuser=0">Taiwan CDC</a>
+                <a href="https://sites.google.com/cdc.gov.tw/2019ncov/taiwan?authuser=0" target="_blank">Taiwan CDC</a>
             </li>
             <li>
-                <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html">US CDC</a>
+                <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" target="_blank">US CDC</a>
             </li>
             <li>
-                <a href="https://www.canada.ca/en/public-health/services/diseases/coronavirus.html">Government of Canada</a>
+                <a href="https://www.canada.ca/en/public-health/services/diseases/coronavirus.html" target="_blank">Government of Canada</a>
             </li>
             <li>
-                <a href="https://www.health.gov.au/news/coronavirus-update-at-a-glance">Australia Government Department of Health</a>
+                <a href="https://www.health.gov.au/news/coronavirus-update-at-a-glance" target="_blank">Australia Government Department of Health</a>
             </li>
             <li>
-                <a href="https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases">European Centre for Disease Prevention and Control (ECDC)</a>
+                <a href="https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases" target="_blank">European Centre for Disease Prevention and Control (ECDC)</a>
             </li>
             <li>
-                <a href="https://www.moh.gov.sg/covid-19">Ministry of Health Singapore (MOH)</a>
+                <a href="https://www.moh.gov.sg/covid-19" target="_blank">Ministry of Health Singapore (MOH)</a>
             </li>
             <li>
-                <a href="http://www.salute.gov.it/nuovocoronavirus">Italy Ministry of Health</a>
+                <a href="http://www.salute.gov.it/nuovocoronavirus" target="_blank">Italy Ministry of Health</a>
             </li>
         </ul>
         <h2 id="h2-data-queries">
             <a name="How to Perform a Query" class="reference-link"></a>
             <span class="header-link octicon octicon-link"></span>
-            Data Queries
+            How to Perform a Query
         </h2>
         <p>
             I have provided some pre-defined queries (which returns a JSON document) with the most useful information set
@@ -98,7 +98,7 @@ layout: default
                 <p>Total World Confirmed Cases, World Deaths, and World Recovered Cases</p>
                 <ul>
                     <li>
-                        <a href="https://services1.arcgis.com/0MSEUqKaxRlEPj5g/ArcGIS/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer/1/query?where=1=1&amp;outStatistics=[{&quot;statisticType&quot;:&quot;sum&quot;,&quot;onStatisticField&quot;:&quot;Confirmed&quot;,&quot;outStatisticFieldName&quot;:&quot;confirmed&quot;},{&quot;statisticType&quot;:&quot;sum&quot;,&quot;onStatisticField&quot;:&quot;deaths&quot;,&quot;outStatisticFieldName&quot;:&quot;deaths&quot;},{&quot;statisticType&quot;:&quot;sum&quot;,&quot;onStatisticField&quot;:&quot;recovered&quot;,&quot;outStatisticFieldName&quot;:&quot;recovered&quot;}]&amp;f=pjson">
+                        <a target="_blank" href="https://services1.arcgis.com/0MSEUqKaxRlEPj5g/ArcGIS/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer/1/query?where=1=1&amp;outStatistics=[{&quot;statisticType&quot;:&quot;sum&quot;,&quot;onStatisticField&quot;:&quot;Confirmed&quot;,&quot;outStatisticFieldName&quot;:&quot;confirmed&quot;},{&quot;statisticType&quot;:&quot;sum&quot;,&quot;onStatisticField&quot;:&quot;deaths&quot;,&quot;outStatisticFieldName&quot;:&quot;deaths&quot;},{&quot;statisticType&quot;:&quot;sum&quot;,&quot;onStatisticField&quot;:&quot;recovered&quot;,&quot;outStatisticFieldName&quot;:&quot;recovered&quot;}]&amp;f=pjson">
                             World Data</a>
                         <em>(Use this in your program to get the JSON Document)</em>
                     </li>
@@ -127,7 +127,7 @@ layout: default
                 <p>Total Cases, Deaths, and Recoveries by state</p>
                 <ul>
                     <li>
-                      <a href="https://services1.arcgis.com/0MSEUqKaxRlEPj5g/ArcGIS/rest/services/ncov_cases/FeatureServer/1/query?where=Country_Region=%27US%27&amp;outFields=Province_State,confirmed,deaths,recovered,%20active&amp;resultRecordCount=200&amp;f=pjson">
+                      <a target="_blank" href="https://services1.arcgis.com/0MSEUqKaxRlEPj5g/ArcGIS/rest/services/ncov_cases/FeatureServer/1/query?where=Country_Region=%27US%27&amp;outFields=Province_State,confirmed,deaths,recovered,%20active&amp;resultRecordCount=200&amp;f=pjson">
                           US-Data</a>
                       <em>(Use this in your program to get the JSON Document)</em>
                     </li>
@@ -154,7 +154,7 @@ layout: default
                 <p>Total Cases, Deaths, and Recoveries in China and the US</p>
                 <ul>
                     <li>
-                      <a href="https://services1.arcgis.com/0MSEUqKaxRlEPj5g/ArcGIS/rest/services/ncov_cases/FeatureServer/2/query?where=1=1&objectIds=18,4&outFields=%20Country_Region,%20confirmed,%20deaths,%20recovered,%20active&returnGeometry=false&f=pjson">
+                      <a target="_blank" href="https://services1.arcgis.com/0MSEUqKaxRlEPj5g/ArcGIS/rest/services/ncov_cases/FeatureServer/2/query?where=1=1&objectIds=18,4&outFields=%20Country_Region,%20confirmed,%20deaths,%20recovered,%20active&returnGeometry=false&f=pjson">
                           China/US Data</a>
                       <em>(Use this in your program to get the JSON Document)</em>
                     </li>
